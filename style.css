@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+
+/* Navigation */
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0, 0, 0, 0.6)!important;
+/*    margin-top: 4.5rem; */
+}
+
+.navbar-brand{
+  background-color:white;
+  width:100%;
+}
+
+/*.navbar-nav li {
+    padding-right: .7rem;
+}*/
+
+/*.navbar-dark.navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}*/
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(184, 68, 68);
+    ;
+}
+
+.caption {
+    top: 48%;
+    right: 25%;
+    z-index: 1;
+}
+
+.caption h2 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    color: rgb(184, 68, 68);
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-bottom: 1.6rem;
+}
+
+
+/* Landing Page 
+
+.home-inner {
+    background-image: url(images/computers.png);
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+*/
+ .landing{
+   height:500px;
+ }
+
+/* Start Services page */
+
+#services h1 {
+  text-align: center;
+}
+#services p {
+  text-align: center;
+}
+#services #titre .conteneur .container-fluid .row {
+  margin-top: 40px;
+}
+#services #titre .conteneur .container-fluid .row #img1 h3 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+}
+#services #titre .conteneur .container-fluid .row #img2 h3 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+}
+#services #titre .conteneur .container-fluid .row #img3 h3 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+}
+#services #titre .conteneur .container-fluid .row #img4 h3 {
+  margin-top: 12px;
+  font-size: 1.2rem;
+}
+#services #titre .conteneur .container-fluid p {
+  text-align: justify;
+}
+#services {
+  padding-bottom: 50px;
+}
+#titre h1{
+ color: #971C31;
+ margin-top: 45px;
+}
+#titre p {
+ margin-top: 5px;
+}
+.container-fluid img {
+  width: 265px;
+  height: 155px;
+}
+.conteneur{
+  margin-left: 142px;
+  margin-right: 142px;
+}
+
+/* End Services Page */
+
+
+/* Start Achievements Page */
+
+.achievement .container-fluid  .row{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+/* End Achievements Page */
+
+/* About page */
+
+.jumbotron {
+    margin: 0px;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: rgb(184, 68, 68);
+    ;
+    margin: 0 auto 2rem;
+}
+
+h3.heading {
+    color: rgb(184, 68, 68);
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto 2rem;
+}
+
+.about h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+    color: white;
+}
+
+.narrow h3 a {
+    color: white;
+}
+
+.about p {
+    font-size: 1.1rem;
+    color: white;
+}
+
+.row h3{
+  color: rgb(184, 68, 68);
+}
+
+.fixed {
+    background-image: url(images/apple.png);
+    z-index: -1;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 7rem 2rem;
+}
+
+
+
+.fixed-background h3 {}
+
+.fixed-backround p {}
+
+/*====== TEAM SECTION ======*/
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+.carousel-item{
+  padding: 25px;
+  background-image: url(images/web-design-background-images_2358053.jpg);
+height: 500px;
+}
+.carousel-item .rounded-circle{
+ width: 200px;
+ height: 250px;
+
+}
+.carousel-indicators{
+  bottom: 10px;
+}
+.change{
+  width: 5px;
+  height: 270px;
+}
+.ch{
+  width: 5px;
+  height: 270px;
+}
+
+/*-----Footer------*/
+
+footer {
+  width: 100%;
+  background-color: #00001a;
+  /*padding: 5px 0px*/
+  margin-left: -5rem;
+  color:white;
+  padding:2rem 0 2rem;
+  margin:1rem;
+}
+  
+  footer img{
+  height:2rem;
+  margin:1.5rem 0;
+  }
+  .appslogo{
+    margin-left: 45%;
+  }
+  footer a{
+  color:white;}
+  
+  footer svg.svg-inline--fa{
+  font-size:1.6rem;
+  margin:1.2rem .5rem 0 0;}
+  
+  footer svg.svg-inline--fa:hover{
+  color:#4d0000!important;}
+  
+  hr.socket{
+  width:100%;
+  border-top:.2rem solid #666b71;;
+  }
+  .socket{
+  line-height: 5px
+  }
+  .textwidget{
+    font-size: 60%;
+  }
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
